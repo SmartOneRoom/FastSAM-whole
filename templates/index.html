@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Segmentation</title>
+    <link rel="stylesheet" href="./static/style.css">  <!-- 외부 CSS 파일 링크 -->
+</head>
+<body>
+
+<h1>Real-Time Segmentation</h1>
+
+
+<div class="content-wrapper">
+    <div id="summary">
+        <h2>Segmentation Result</h2>
+        <p id="result"></p>
+        <div class="image-container">
+            <img id="segmentation" alt="Segmentation Feed">
+        </div>
+    </div>
+
+    <div id="webcam">
+        <h2>Real-Time Cam</h2>
+        <div class="image-container">
+            <img id="webcamFeed" alt="Webcam Feed">
+        </div>
+    </div>
+</div>
+
+<!-- 버튼 추가 -->
+<div class="controls">
+    <button id="toggleButton">Start Segmentation</button>
+</div>
+
+<script src="./static/script.js"></script>  <!-- 외부 JavaScript 파일 링크 -->
+</body>
+</html>
